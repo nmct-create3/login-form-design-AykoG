@@ -489,11 +489,25 @@ a:focus {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border: 1px solid #E2E3E7;
     width: 100%;
     border-radius: 3px;
+    font-family: inherit;
+    color: #20223A;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px;
+    outline: none;
 }
 
 .c-input:focus {
+    border-color: #3385FF;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 0 0 3px #3385FF4D; 
+
 }
 
 /*
@@ -522,7 +536,16 @@ a:focus {
 */
 
 .c-button {
-
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #E2E3E7;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #3385FF;
+    line-height: 20px;
+    padding: 16px;
+    width: 100%;
+    outline: none;
 }
 
 .c-button:hover {
