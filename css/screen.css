@@ -549,15 +549,24 @@ a:focus {
 }
 
 .c-button:hover {
-
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border: 1px solid #E2E3E7;
 }
 
 .c-button:focus {
-
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border: 1px solid #E2E3E7;
 }
 
 .c-button:active {
-
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    border: 1px solid #E2E3E7;
 }
 
 .c-button--block {
